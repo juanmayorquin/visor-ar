@@ -33,8 +33,8 @@ root.render(
         <section className="container">
             <LongArticle titulo={"¡Descubre la Maravilla del Osciloscopio en 3D!"}
             contenido={"Sumérgete en una experiencia única mientras desvelamos el mundo del osciloscopio a través de un modelado en 3D sorprendentemente realista."}
-            src={"../src/assets/osciloscopio.glb"}
-            img={"../src/assets/osciloscopio.png"}
+            src={"../src/assets/fuente_de_voltaje.glb"}
+            img={"../src/assets/fuente_de_voltaje.glb"}
             alt={"Osciloscopio"}
             side={"left"}
             bgColor={"#FB1818"}
@@ -42,8 +42,8 @@ root.render(
             />
             <LongArticle titulo={" ¡Descubre la Fuente de Voltaje en 3D!"}
             contenido={"Te damos la bienvenida a un viaje tridimensional hacia el mundo de la fuente de voltaje. En este fascinante recorrido, podrás explorar cada componente y rincón de esta herramienta que desempeña un papel fundamental en la alimentación y el funcionamiento de dispositivos electrónicos."}
-            src={"../src/assets/fuente-de-voltaje.glb"}
-            img={"../src/assets/fuente-de-voltaje.png"}
+            src={"../src/assets/fuente_de_voltaje.glb"}
+            img={"../src/assets/fuente_de_voltaje.png"}
             alt={"Fuente de voltaje"}
             side={"right"}
             bgColor={"#FFFFFF"}

@@ -12,14 +12,32 @@ export function LongArticle({titulo, contenido, src, img, alt, side, bgColor, te
                 <p className="articulo__text">{contenido}</p>
                 <a className="articulo__boton" href="#">Saber más</a>
             </div>
-            <model-viewer className="articulo__model" alt={alt} src={src} ar poster={img} camera-controls touch-action="pan-y"></model-viewer>
+            <div className="article__model-div">
+                <model-viewer 
+                    className="articulo__model"
+                    src={src}
+                    poster={src}
+                    alt="A 3D model of an astronaut"
+                    camera-controls
+                    auto-rotate ar>
+                </model-viewer>
+            </div>
         </article>
         );
     }
     else if (side === "right"){
         return(
             <article className="articulo-largo-right">
-            <model-viewer className="articulo__model" alt={alt} src={src} ar poster={img} camera-controls touch-action="pan-y"></model-viewer>
+            <div className="article__model-div">
+                <model-viewer 
+                    className="articulo__model"
+                    src={src}
+                    poster={src}
+                    alt="A 3D model of an astronaut"
+                    camera-controls
+                    auto-rotate ar>
+                </model-viewer>
+            </div>           
             <div className="articulo__contenido">
                 <h2 className="articulo__title">{titulo}</h2>
                 <p className="articulo__text">{contenido}</p>

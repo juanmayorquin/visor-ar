@@ -292,6 +292,12 @@ header img:last-child{
     line-height: 3rem;
 }
 
+.articulo__img-div, .articulo__model-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .articulo__boton {
     color: var(--primario-fuerte);
     background-color: var(--blanco);
