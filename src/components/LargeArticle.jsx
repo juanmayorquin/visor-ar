@@ -1,4 +1,4 @@
-export function LongArticle({titulo, contenido, src, img, alt, side, bgColor, textColor}){
+export function LargeArticle({titulo, contenido, src, img, alt, side, bgColor, textColor}){
     const articleStyle = {
         backgroundColor: bgColor,
         color: textColor
