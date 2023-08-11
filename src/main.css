@@ -5,6 +5,7 @@
     --primario: #D20B0B;
     --blanco: #FFF;
     --negro: #000;
+    --gris: #6e6e6e;
     --fuentePrincipal: 'Montserrat', sans-serif;
 }
 
@@ -35,17 +36,18 @@ a {
 
 img {
     object-fit: cover;
+    max-width: 100%;
 }
 
 .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
 /* Header */
 .color-bar {
     background-color: var(--primario);
-    height: 1rem;
+    height: 2.5rem;
 }
 
 .header {
@@ -66,13 +68,36 @@ img {
     height: 100%;
 }
 
+.navbar__button{
+    display: inline;
+    margin: 0 0.5rem;
+    background-color: var(--blanco);
+    border-style: solid;
+    border-width: 3.5px;
+    border-radius: 1rem;
+    border-color: var(--primario);
+}
+
+.navbar__button:hover{
+    cursor: pointer;
+}
+
 .navbar__items{
+    display: none;
     list-style-type: none;
-    display: flex;
     align-items: center;
     padding: 0;
     margin: auto 2rem;
-    
+}
+
+@media (min-width: 960px) {
+    .navbar__items{
+        display: flex;
+    }
+
+    .navbar__button{
+        display: none;
+    }
 }
 
 .navbar__item{
@@ -103,7 +128,7 @@ header img:last-child{
 
 .hero {
     background-image: url('../img/hero.jpg');
-    height: 60rem;
+    height: 85rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,10 +145,64 @@ header img:last-child{
 }
 
 .hero__title {
-    text-align: end;
+    text-align: center;
     color: var(--blanco);
-    font-size: 9rem;
+    font-size: 4rem;
     font-weight: 700;
-    max-width: 50%;
-    margin: auto 10%;
+    max-width: 90%;
+    margin: 0 auto
 }
+
+@media (min-width: 768px) {
+    .hero__title {
+        font-size: 6rem;
+        text-align: end;
+        max-width: 60%;
+        margin: auto 5%;
+
+    }
+}
+
+@media (min-width: 960px) {
+    .hero__title {
+        font-size: 8rem;
+        text-align: end;
+        max-width: 55%;
+        margin: auto 5%;
+    }
+}
+
+/* Section1 */
+
+.section1 {
+    background-color: var(--blanco);
+    color: var(--gris);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    padding: 8rem;
+}
+
+.section1__title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.section1_video {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.section1_video video{
+    object-fit: cover;
+}
+
