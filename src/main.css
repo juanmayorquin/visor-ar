@@ -40,6 +40,13 @@ img {
     max-width: 100%;
 }
 
+model-viewer {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -244,29 +251,38 @@ header img:last-child{
 }
 
 /* Articulo */
-.articulo, .articulo-largo {
+.articulo, .articulo-largo, .articulo-right, .articulo-largo-right{
     display: flex;
-    flex-direction: column-reverse;
     padding: 5rem 12%;
     gap: 5rem;
     background-color: var(--blanco);
+}
+
+.articulo, .articulo-largo {
+    flex-direction: column-reverse;
 }
 
 .articulo-right, .articulo-largo-right {
-    display: flex;
     flex-direction: column;
-    padding: 5rem 12%;
-    gap: 5rem;
-    background-color: var(--blanco);
+    
 }
 
 @media (min-width: 960px) {
-    .articulo, .articulo-largo, .articulo-right,.articulo-largo-right {
-        padding: 5rem 12%;
-        gap: 5rem;
-        background-color: var(--blanco);
+    .articulo, .articulo-largo, .articulo-right, .articulo-largo-right {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+
+    .articulo, .articulo-right{
+        padding: 5rem 12%;
+        background-color: var(--blanco);
+
+    }
+
+    .articulo-largo, .articulo-largo-right{
+        padding: 5rem 8%;
+        height: 40rem;
     }
 }
 
@@ -290,12 +306,6 @@ header img:last-child{
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 3rem;
-}
-
-.articulo__img-div, .articulo__model-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .articulo__boton {
@@ -328,9 +338,18 @@ header img:last-child{
     cursor: pointer;
 }
 
-/* Artículo largo */
-.articulo-largo {
-    padding: 5rem 8%;
+/* Articulo Model e Img */
+
+.articulo__model-div{
+    display: flex;
+    justify-content: center;
+    min-height: 10rem;
 }
 
-
+@media (min-width: 960px) {
+    .articulo__img-div, .articulo__model-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

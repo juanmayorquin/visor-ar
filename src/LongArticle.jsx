@@ -15,9 +15,10 @@ export function LongArticle({titulo, contenido, src, img, alt, side, bgColor, te
             <div className="article__model-div">
                 <model-viewer 
                     className="articulo__model"
+                    orbit="45deg 55deg 1m"
                     src={src}
                     poster={src}
-                    alt="A 3D model of an astronaut"
+                    alt={alt}
                     camera-controls
                     auto-rotate ar>
                 </model-viewer>
@@ -33,7 +34,8 @@ export function LongArticle({titulo, contenido, src, img, alt, side, bgColor, te
                     className="articulo__model"
                     src={src}
                     poster={src}
-                    alt="A 3D model of an astronaut"
+                    alt={alt}
+                    orbit="45deg 55deg 1m"
                     camera-controls
                     auto-rotate ar>
                 </model-viewer>
