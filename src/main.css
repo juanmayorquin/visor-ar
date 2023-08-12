@@ -43,8 +43,15 @@ img {
 model-viewer {
     object-fit: cover;
     min-height: 20rem;
+    max-width: 100%;
     margin: 0 auto;
     border: none;
+}
+
+@media (min-width: 768px) {
+    model-viewer{
+        min-height: 40rem;
+    }
 }
 
 @media (min-width: 960px) {
@@ -186,6 +193,10 @@ header img:last-child{
     margin: 0 auto
 }
 
+.hero__title span {
+    font-weight: 500;
+}
+
 @media (min-width: 768px) {
     .hero__title {
         font-size: 6rem;
@@ -262,10 +273,23 @@ header img:last-child{
 }
 
 /* Articulo */
+.articulo, .articulo-right{
+    gap: 5rem
+}
+
+.articulo-largo, .articulo-largo-right{
+    gap: 4rem
+}
+
+@media (min-width: 768px) {
+    .articulo-largo, .articulo-largo-right{
+        gap: 1rem
+    }
+}
+
 .articulo, .articulo-largo, .articulo-right, .articulo-largo-right{
     display: flex;
     padding: 5rem 12%;
-    gap: 5rem;
     background-color: var(--blanco);
 }
 
@@ -307,16 +331,26 @@ header img:last-child{
 }
 
 .articulo__title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
 .articulo__text {
-    font-size: 1.9rem;
+    font-size: 1.65rem;
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+    .articulo__title{
+        font-size: 2.4rem;
+    }
+
+    .articulo__text{
+        font-size: 1.9rem;
+    }
 }
 
 .articulo__boton {

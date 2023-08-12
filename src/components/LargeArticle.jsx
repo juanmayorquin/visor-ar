@@ -19,6 +19,9 @@ export function LargeArticle({titulo, contenido, src, img, alt, side, bgColor, t
                         alt={alt}
                         orbit="45deg 55deg 1m"
                         touch-action="pan-y"
+                        disable-tap
+                        disable-zoom
+                        disable-pan
                         camera-controls
                         auto-rotate ar>
                     </model-viewer>
@@ -37,6 +40,9 @@ export function LargeArticle({titulo, contenido, src, img, alt, side, bgColor, t
                         alt={alt}
                         orbit="45deg 55deg 1m"
                         touch-action="pan-y"
+                        disable-tap
+                        disable-zoom
+                        disable-pan
                         camera-controls
                         auto-rotate ar>
                     </model-viewer>

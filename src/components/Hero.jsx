@@ -3,7 +3,7 @@ export function Hero() {
         <>
             <div className="hero container">
                 <div className="hero__content">
-                    <h1 className="hero__title"> BiorAR Lab: Visor de Dispositivos de Laboratorio en RA</h1>
+                    <h1 className="hero__title"> BioAR Lab: <br /> <span>Visor de Dispositivos de Laboratorio en RA</span></h1>
                 </div>
             </div>
         </>
