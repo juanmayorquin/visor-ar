@@ -7,6 +7,7 @@
     --blanco: #FFF;
     --negro: #000;
     --gris: #6e6e6e;
+    --grisOscuro: #303030;
     --fuentePrincipal: 'Montserrat', sans-serif;
 }
 
@@ -112,10 +113,7 @@ model-viewer {
     display: inline;
     margin: 0 0.5rem;
     background-color: var(--blanco);
-    border-style: solid;
-    border-width: 3.5px;
-    border-radius: 1rem;
-    border-color: var(--primario);
+    border-style: none;
 }
 
 .navbar__button:hover{
@@ -396,4 +394,88 @@ header img:last-child{
         flex-direction: column;
         justify-content: center;
     }
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--grisOscuro);
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer__logo, .footer__logo img {
+    height: 5rem;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .footer__logo, .footer__logo img {
+        height: 8rem;
+    }
+
+    .footer {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .footer{
+        flex-direction: row;
+
+    }
+    .footer__info{
+        align-items: end;
+    }
+
+}
+
+/* Banner */
+
+.banner {
+    background-image: url(../img/instrumentos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 80%;
+}
+
+.banner__title {
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--blanco);
+    text-align: center;
+    margin-bottom: 2rem;
 }
