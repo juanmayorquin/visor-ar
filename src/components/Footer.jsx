@@ -6,8 +6,8 @@ export function Footer(){
             </div>
             <div className="footer__info">
                     <p>Universidad Autónoma de Occidente</p>
-                    <p>Programa de Ingeniería Biomédica</p>
-                    <p>©Copyright 2023. Todos los derechos reservados</p>
+                    <p>Programa de Ingeniería Multimedia</p>
+                    <p>©Copyright 2023. Todos los derechos reservados.</p>
                 </div>
         </footer>
     );
