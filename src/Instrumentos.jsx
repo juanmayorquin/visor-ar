@@ -33,6 +33,7 @@ export function Instrumentos() {
                 texto={"El osciloscopio es una herramienta poderosa que ha revolucionado la forma en que los ingenieros y científicos comprenden y trabajan con señales eléctricas. Desde su capacidad para revelar detalles sutiles de las señales hasta su papel crucial en la resolución de problemas y la toma de decisiones en diseño y desarrollo, el osciloscopio sigue siendo un pilar en la industria electrónica. Es una ventana al mundo oculto de las señales eléctricas que impulsa nuestra tecnología moderna y transforma la forma en que interactuamos con el mundo de la electrónica."}
                 backgroundColor={"#F2F2F2"}
             />
+            <ColorBar />
             <Instrumento
                 nombre={"Fuentes de Voltaje"}
                 titulo={"El Corazón Energético: Explorando la Fuente de Voltaje"}
