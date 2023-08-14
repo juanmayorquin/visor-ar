@@ -354,7 +354,7 @@ header img:last-child{
 .articulo__boton {
     color: var(--primario-fuerte);
     background-color: var(--blanco);
-    border-color: var(--primario-fuerte);
+    border-color: var(--primario);
     font-weight: 500;
     padding: 1rem 1.5rem;
     border-style: solid;

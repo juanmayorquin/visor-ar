@@ -1,3 +1,4 @@
+import { ColorBar } from "./components/ColorBar";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Banner } from "./components/Banner";
@@ -7,6 +8,7 @@ import { Instrumento } from "./components/Instrumento";
 export function Instrumentos() {
     return (
         <>
+            <ColorBar />
             <Header />
             <Banner />
             <Section 

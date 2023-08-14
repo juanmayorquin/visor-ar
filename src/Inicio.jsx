@@ -43,7 +43,7 @@ export function Inicio() {
                     img={"../src/assets/fuente_de_voltaje.png"}
                     alt={"Osciloscopio"}
                     side={"left"}
-                    bgColor={"#FB1818"}
+                    bgColor={"#D20B0B"}
                     textColor={"#FFFFFF"}
                 />
                 <LargeArticle 
