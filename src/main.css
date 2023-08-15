@@ -150,8 +150,8 @@ model-viewer {
 }
 
 .navbar__item:hover{
-    background-color: var(--primario);
-    color: var(--blanco);
+    background-color: #f1f1f1;
+    
 }
 
 header img {
@@ -449,7 +449,7 @@ header img:last-child{
 
 /* Banner */
 
-.banner {
+.banner, .banner--alt {
     background-image: url(../img/instrumentos.jpg);
     background-size: cover;
     background-position: center;
@@ -459,6 +459,10 @@ header img:last-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.banner--alt {
+    background-image: url(../img/modelos.jpg);
 }
 
 .banner__contenido{
