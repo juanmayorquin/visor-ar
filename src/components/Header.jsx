@@ -11,7 +11,7 @@ export function Header() {
                             <path d="M4 18l16 0" />
                         </svg>
                     </button>
-                    <a className="navbar__logo" href="./index.html"><img src="../img/UAO.png" alt="Logo UAO" /></a>
+                    <a className="navbar__logo" href="./"><img src="../img/UAO.png" alt="Logo UAO" /></a>
                     <ul className="navbar__items">
                         <a href="/" className="navbar__item"><li>Inicio</li></a>    
                         <a href="/instrumentos" className="navbar__item"><li>Instrumentos</li></a>
