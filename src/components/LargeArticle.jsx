@@ -15,7 +15,7 @@ export function LargeArticle({titulo, contenido, src, img, alt, side, bgColor, t
                     <model-viewer 
                         className="articulo__model"
                         src={src}
-                        poster={src}
+                        poster={img}
                         alt={alt}
                         orbit="45deg 55deg 1m"
                         touch-action="pan-y"

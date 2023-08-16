@@ -76,9 +76,11 @@ model-viewer {
 }
 
 .header {
-    
     height: 10rem;
     padding: 2rem 2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
     background-color: var(--blanco);
     margin: 0 auto;
 }
@@ -100,6 +102,9 @@ model-viewer {
 @media (min-width: 768px) {
     .header {
         display: flex;
+        position: sticky;
+        top: 0px;
+        z-index: 100;
         justify-content: space-between;
 
     }
@@ -114,6 +119,10 @@ model-viewer {
     margin: 0 0.5rem;
     background-color: var(--blanco);
     border-style: none;
+}
+
+.navbar__button.active {
+    background-color: var(--grisOscuro);
 }
 
 .navbar__button:hover{
@@ -602,4 +611,18 @@ header img:last-child{
         text-align: center;
     }
     
+}
+
+.modelSection {
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.modelSection__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
