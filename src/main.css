@@ -70,6 +70,12 @@ model-viewer {
 }
 
 /* Header */
+.headerDiv {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
 .color-bar {
     background-color: var(--primario);
     height: 2.5rem;
@@ -78,9 +84,6 @@ model-viewer {
 .header {
     height: 10rem;
     padding: 2rem 2rem;
-    position: sticky;
-    top: 0px;
-    z-index: 100;
     background-color: var(--blanco);
     margin: 0 auto;
 }
@@ -119,10 +122,12 @@ model-viewer {
     margin: 0 0.5rem;
     background-color: var(--blanco);
     border-style: none;
+    border-radius: 1rem;
+    transition: all 0.25s;
 }
 
 .navbar__button.active {
-    background-color: var(--grisOscuro);
+    background-color: var(--bg);
 }
 
 .navbar__button:hover{
@@ -161,6 +166,52 @@ model-viewer {
 .navbar__item:hover{
     background-color: #f1f1f1;
     
+}
+
+.navbar__items--mobile.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    padding: 1rem 0;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    transition: all 0.25s;
+}
+
+.navbar__items--mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    padding: 1rem 0;
+    transition: all 0.25s;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.navbar__item--mobile {
+    padding: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.navbar__item--mobile:hover {
+    background-color: var(--primario);
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .navbar__items--mobile {
+        display: none;
+    }
 }
 
 header img {
@@ -486,11 +537,17 @@ header img:last-child{
 
 .banner__title {
     text-transform: uppercase;
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
     color: var(--blanco);
     text-align: center;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .banner__title {
+        font-size: 6rem;
+    }    
 }
 
 /* Elemento */
