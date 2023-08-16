@@ -537,7 +537,7 @@ header img:last-child{
 
 .banner__title {
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--blanco);
     text-align: center;
@@ -547,6 +547,12 @@ header img:last-child{
 @media (min-width: 768px) {
     .banner__title {
         font-size: 6rem;
+    }    
+}
+
+@media (min-width: 960px) {
+    .banner__title {
+        font-size: 7rem;
     }    
 }
 
