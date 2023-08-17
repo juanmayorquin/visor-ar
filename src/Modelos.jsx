@@ -20,14 +20,14 @@ export function Modelos() {
             />
             <ModelSection
                 nombre={"Osciloscopio"}
-                src={"/assets/osciloscopio.glb"}
+                src={"/models/osciloscopio.glb"}
                 img={"/assets/osciloscopio.png"}
                 alt={"Osciloscopio"}
             />
             <ColorBar />
             <ModelSection
                 nombre={"Fuente de Voltaje"}
-                src={"/assets/fuente_de_voltaje.glb"}
+                src={"/models/fuente_de_voltaje.glb"}
                 img={"/assets/fuente_de_voltaje.png"}
                 alt={"Fuente de voltaje"}
             />
