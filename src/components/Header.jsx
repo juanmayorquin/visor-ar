@@ -23,14 +23,14 @@ export function Header() {
                             <path d="M4 18l16 0" />
                         </svg>
                     </button>
-                    <a className="navbar__logo" href="./visor-ar/"><img src="../img/UAO.png" alt="Logo UAO" /></a>
+                    <a className="navbar__logo" href="/visor-ar/"><img src="./img/UAO.png" alt="Logo UAO" /></a>
                     <ul className="navbar__items">
-                        <a href="/" className="navbar__item"><li>Inicio</li></a>    
+                        <a href="/visor-ar/" className="navbar__item"><li>Inicio</li></a>    
                         <a href="./instrumentos" className="navbar__item"><li>Instrumentos</li></a>
                         <a href="./modelos" className="navbar__item"><li>Modelos</li></a>
                     </ul>   
                 </nav>
-                    <img className="header__logo50" src="../img/Logo-50.png" alt="Logo 50 Años" />       
+                    <img className="header__logo50" src="./img/Logo-50.png" alt="Logo 50 Años" />       
             </header>
             <ul className="navbar__items--mobile">
                 <a href="/visor-ar/" className="navbar__item--mobile"><li>Inicio</li></a>    
