@@ -44,7 +44,7 @@ export function Header() {
                     <img className="header__logo50" src="./img/Logo-50.png" alt="Logo 50 Años" />       
             </header>
             <ul className="navbar__items--mobile">
-                <a href="/" className="navbar__item--mobile"><li>Inicio</li></a>    
+                <a href="./" className="navbar__item--mobile"><li>Inicio</li></a>    
                 <a href="./#/instrumentos" className="navbar__item--mobile"><li>Instrumentos</li></a>
                 <a href="./#/modelos" className="navbar__item--mobile"><li>Modelos</li></a>
             </ul>

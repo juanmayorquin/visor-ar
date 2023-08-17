@@ -2,7 +2,7 @@ export function Footer(){
     return(
         <footer className="footer">
             <div className="footer__logo">
-                <img src="../img/UAO.png" alt="Logo UAO" />
+                <img src="./img/UAO.png" alt="Logo UAO" />
             </div>
             <div className="footer__info">
                     <p>Universidad Autónoma de Occidente</p>
