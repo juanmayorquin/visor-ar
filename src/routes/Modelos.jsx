@@ -1,11 +1,11 @@
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-import { ColorBar } from "./components/ColorBar";
-import { Banner } from "./components/Banner";
-import { Section } from "./components/Section";
-import { ModelSection } from "./components/ModelSection";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+import { ColorBar } from "../components/ColorBar";
+import { Banner } from "../components/Banner";
+import { Section } from "../components/Section";
+import { ModelSection } from "../components/ModelSection";
 
-export function Modelos() {
+export default function Modelos() {
     return (
         <>
             <ColorBar />

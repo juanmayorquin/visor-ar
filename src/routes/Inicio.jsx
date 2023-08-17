@@ -1,12 +1,12 @@
-import { ColorBar } from './components/ColorBar.jsx'
-import { Header } from './components/Header.jsx'
-import { Hero } from './components/Hero.jsx'
-import { Section } from './components/Section.jsx'
-import { Article } from './components/Article.jsx'
-import { LargeArticle } from './components/LargeArticle.jsx'
-import { Footer } from './components/Footer.jsx'
+import { ColorBar } from '../components/ColorBar.jsx'
+import { Header } from '../components/Header.jsx'
+import { Hero } from '../components/Hero.jsx'
+import { Section } from '../components/Section.jsx'
+import { Article } from '../components/Article.jsx'
+import { LargeArticle } from '../components/LargeArticle.jsx'
+import { Footer } from '../components/Footer.jsx'
 
-export function Inicio() {
+export default function Inicio() {
     return (
         <>
             <ColorBar />
