@@ -8,7 +8,7 @@ export function App(){
         <div className="App">
             <Routes>
                 <Route path="/visor-ar/" element={<Inicio/>} />
-                <Route path="/visor-ar/instrumentos/" element={<Instrumentos/>} />
+                <Route path="/visor-ar/instrumentos" element={<Instrumentos/>} />
                 <Route path="/visor-ar/modelos" element={<Modelos/>} />
             </Routes>
         </div>
