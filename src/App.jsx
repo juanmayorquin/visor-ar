@@ -7,9 +7,9 @@ export function App(){
     return(
         <div className="App">
             <Routes>
-                <Route path="/" element={<Inicio/>} />
-                <Route path="/instrumentos" element={<Instrumentos/>} />
-                <Route path="/modelos" element={<Modelos/>} />
+                <Route path="/visor-ar/" element={<Inicio/>} />
+                <Route path="/visor-ar/instrumentos/" element={<Instrumentos/>} />
+                <Route path="/visor-ar/modelos" element={<Modelos/>} />
             </Routes>
         </div>
     );
