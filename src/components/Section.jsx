@@ -14,7 +14,7 @@ export function Section({texto, video, backgroundColor, isBold}){
                 <div className="section__video-container">
                     <iframe className="section__video" src={video} title="YouTube video player" ></iframe>
                 </div>
-            </section>    
+            </section>   
         );
     }
     else{

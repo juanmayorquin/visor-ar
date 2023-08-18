@@ -1,15 +1,13 @@
-import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { ColorBar } from "../components/ColorBar";
 import { Banner } from "../components/Banner";
 import { Section } from "../components/Section";
 import { ModelSection } from "../components/ModelSection";
+import {motion} from "framer-motion"
 
 export default function Modelos() {
     return (
-        <>
-            <ColorBar />
-            <Header />
+        <motion.main initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.7}}>
             <Banner 
                 titulo={"Modelos 3D"}
             />
@@ -32,6 +30,6 @@ export default function Modelos() {
                 alt={"Fuente de voltaje"}
             />
             <Footer/>
-        </>
+        </motion.main>
     );
 }
