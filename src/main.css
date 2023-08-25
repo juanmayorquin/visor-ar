@@ -18,7 +18,7 @@ html{
 
 *, *:before, *:after {
     box-sizing: inherit;
-  }
+}
 
 body {
     font-family: var(--fuentePrincipal);
@@ -618,7 +618,9 @@ header img:last-child{
 
 .elemento__img {
     max-height: 60rem;
-    margin: 0 auto 4rem auto;
+    max-width: 60rem;
+    width: 100%;
+    margin: 4rem auto;
 }
 
 .elemento__texto {
@@ -644,7 +646,7 @@ header img:last-child{
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1260px) {
     .elemento {
         gap: 2rem;
     }
