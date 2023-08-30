@@ -3,7 +3,7 @@
 :root {
     --bg: #F4F4F4;
     --primario: #D20B0B;
-    --primario-fuerte: #FB1818;
+    --primario-fuerte: #D60707;
     --blanco: #FFF;
     --negro: #000;
     --gris: #6e6e6e;
@@ -25,6 +25,10 @@ body {
     font-size: 1.6rem;
     margin: 0;
     background-color: var(--bg);
+}
+
+h2 {
+    font-size: 4rem;
 }
 
 h1, h2, h3, h4, p {
@@ -307,6 +311,7 @@ header img:last-child{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 4rem;
+    line-height: 1.5;
 }
 
 .section__text.no-m-bot{
@@ -316,7 +321,7 @@ header img:last-child{
 @media (min-width: 960px) {
     .section__text {
         font-size: 3.5rem;
-        text-align: center;
+        text-align: justify;
         vertical-align: middle;
         margin-bottom: 6rem;
     }
@@ -683,7 +688,7 @@ header img:last-child{
     }
 
     .elemento__parrafo--centrado {
-        text-align: center;
+        text-align: justify;
     }
     
 }
@@ -700,4 +705,82 @@ header img:last-child{
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2rem;
+}
+
+/* Parrafo */
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.parrafo__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.parrafo__texto {
+    font-size: 2.2rem;
+    line-height: 1.6;
+}
+
+@media (min-width: 960px) {
+    .parrafo {
+        padding: 8rem;
+    }
+
+    .parrafo__title {
+        font-size: 4rem;
+    }
+
+    .parrafo__texto {
+        font-size: 2.6rem;
+    }
+}
+
+/* Parrafo doble */
+.parrafo-doble {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.parrafo-doble__parrafo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+.parrafo-doble__titulo {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.parrafo-doble__texto {
+    font-size: 2.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+@media (min-width: 960px) {
+    .parrafo-doble {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parrafo-doble__parrafo {
+        align-items: center;
+    }
+
+    .parrafo-doble__titulo {
+        text-align: center;
+    }
 }

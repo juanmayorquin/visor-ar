@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
@@ -62,7 +63,7 @@ export function Header() {
               <li>Instrumentos</li>
             </NavLink>
             <NavLink
-              to="/modelos"
+              to="/about"
               onClick={scrollToTop}
               className={({ isActive }) =>
                 isActive ? "navbar__item active" : "navbar__item"

@@ -1,6 +1,6 @@
 import Inicio from "./routes/Inicio";
 import Instrumentos from "./routes/Instrumentos";
-import Modelos from "./routes/Modelos";
+import About from "./routes/About";
 import { Header } from "./components/Header";
 import { ColorBar } from "./components/ColorBar";
 import { Route, Routes } from "react-router-dom";
@@ -12,7 +12,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/instrumentos" element={<Instrumentos />} />
-        <Route path="/modelos" element={<Modelos />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   );

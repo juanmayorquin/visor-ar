@@ -10,12 +10,14 @@ export default function Inicio() {
     <motion.main initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.7}}>
       <Hero />
       <Section
-        texto={
-          "¡Bienvenidos a nuestra plataforma dedicada a brindarte información detallada sobre dos instrumentos biomédicos líderes en la industria de la salud!"
-        }
-        video={"https://www.youtube.com/embed/8jPKgJAQlZA"}
-        backgroundColor={"#FFFFFF"}
+        texto={"¡Bienvenidos a nuestra plataforma dedicada a brindarte información detallada sobre dos instrumentos biomédicos líderes en la industria de la salud!"}
         isBold
+      />
+      <ColorBar/>
+      <Section
+        texto={"Nuestra misión es transformar la educación en ingeniería biomédica a través de la fusión de la tecnología, la experiencia multimedia y la innovación educativa. En un plazo de 21 días, nos embarcamos en una emocionante travesía para desarrollar un prototipo de sistema multimedia de vanguardia, diseñado específicamente para estudiantes de ingeniería biomédica."}
+        video={"https://www.youtube.com/embed/8jPKgJAQlZA"}
+        fontSize="2.8rem"
       />
       <ColorBar />
       <section className="container">
