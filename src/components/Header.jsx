@@ -88,13 +88,13 @@ export function Header() {
             exit={{ y: -600 }}
             className="navbar__items--mobile"
           >
-            <NavLink to="/" className="navbar__item--mobile">
+            <NavLink to="/" onClick={scrollToTop} className="navbar__item--mobile">
               <li>Inicio</li>
             </NavLink>
-            <NavLink to="/instrumentos" className="navbar__item--mobile">
+            <NavLink to="/instrumentos" onClick={scrollToTop} className="navbar__item--mobile">
               <li>Instrumentos</li>
             </NavLink>
-            <NavLink to="/about" className="navbar__item--mobile">
+            <NavLink to="/about" onClick={scrollToTop} className="navbar__item--mobile">
               <li>Acerca de</li>
             </NavLink>
           </motion.ul>
