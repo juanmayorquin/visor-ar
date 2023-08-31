@@ -31,8 +31,20 @@ h2 {
     font-size: 4rem;
 }
 
+h3 {
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 1.9rem;
+}
+
 h1, h2, h3, h4, p {
     margin: 0;
+}
+
+p {
+    font-size: 2.2rem;
 }
 
 a {
@@ -68,7 +80,7 @@ model-viewer {
     }
 }
 
-.container {
+.container-home {
     width: 100%;
     margin: auto;
 }
@@ -321,7 +333,7 @@ header img:last-child{
 @media (min-width: 960px) {
     .section__text {
         font-size: 3.5rem;
-        text-align: justify;
+        text-align: center;
         vertical-align: middle;
         margin-bottom: 6rem;
     }
@@ -714,8 +726,8 @@ header img:last-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
     gap: 2rem;
+    line-height: 1.6;
 }
 
 .parrafo__title {
@@ -727,14 +739,9 @@ header img:last-child{
 
 .parrafo__texto {
     font-size: 2.2rem;
-    line-height: 1.6;
 }
 
 @media (min-width: 960px) {
-    .parrafo {
-        padding: 8rem;
-    }
-
     .parrafo__title {
         font-size: 4rem;
     }
@@ -748,7 +755,8 @@ header img:last-child{
 .parrafo-doble {
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 0;
+    line-height: 1.6;
 }
 
 .parrafo-doble__parrafo {
@@ -760,6 +768,7 @@ header img:last-child{
 
 .parrafo-doble__titulo {
     font-weight: 700;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: left;
 }
@@ -774,6 +783,7 @@ header img:last-child{
     .parrafo-doble {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
     }
 
     .parrafo-doble__parrafo {
@@ -783,4 +793,56 @@ header img:last-child{
     .parrafo-doble__titulo {
         text-align: center;
     }
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 4rem;
+}
+
+@media (min-width: 960px) {
+    .container {
+        padding: 8rem;
+    }
+}
+
+/* Participante */
+
+.participante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+@media (min-width: 960px) {
+    .participante {
+        margin-bottom: 7rem;
+
+    }    
+}
+
+.participante__info {
+
+}
+
+.participante__nombre {
+    border-bottom: 7px solid var(--primario);
+}
+
+.participante__subtitulo {
+    margin-top: .5rem;
+}
+
+.participante__texto {
+
+}
+
+.participante__texto span {
+    font-weight: bold;
 }

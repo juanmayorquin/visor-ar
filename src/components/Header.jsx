@@ -69,7 +69,7 @@ export function Header() {
                 isActive ? "navbar__item active" : "navbar__item"
               }
             >
-              <li>Modelos</li>
+              <li>Acerca de</li>
             </NavLink>
           </ul>
         </nav>
@@ -94,8 +94,8 @@ export function Header() {
             <NavLink to="/instrumentos" className="navbar__item--mobile">
               <li>Instrumentos</li>
             </NavLink>
-            <NavLink to="/modelos" className="navbar__item--mobile">
-              <li>Modelos</li>
+            <NavLink to="/about" className="navbar__item--mobile">
+              <li>Acerca de</li>
             </NavLink>
           </motion.ul>
         )}

@@ -20,7 +20,7 @@ export default function Inicio() {
         fontSize="2.8rem"
       />
       <ColorBar />
-      <section className="container">
+      <section className="container-home">
         <Article
           titulo={"Osciloscopio: Explorando las Ondas Electrónicas"}
           contenido={
@@ -41,7 +41,7 @@ export default function Inicio() {
           side={"right"}
         />
       </section>
-      <section className="container">
+      <section className="container-home">
         <LargeArticle
           titulo={"¡Descubre la Maravilla del Osciloscopio en 3D!"}
           contenido={
