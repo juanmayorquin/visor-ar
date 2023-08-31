@@ -28,15 +28,15 @@ body {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
 }
 
 h3 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 
 h4 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, p {
@@ -44,7 +44,26 @@ h1, h2, h3, h4, p {
 }
 
 p {
-    font-size: 2.2rem;
+    font-size: 2rem;
+}
+
+@media (min-width: 960px) {
+    h2 {
+        font-size: 4rem;
+
+    }
+
+    h3 {
+        font-size: 2.6rem;
+    }
+
+    h4 {
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+    }
 }
 
 a {
@@ -513,6 +532,10 @@ header img:last-child{
     align-items: center;
 }
 
+.footer__info p {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 768px) {
     .footer__logo, .footer__logo img {
         height: 8rem;
@@ -520,6 +543,10 @@ header img:last-child{
 
     .footer {
         font-size: 1.5rem;
+    }
+
+    .footer__info p {
+        font-size: 1.7rem;
     }
 }
 
@@ -537,7 +564,7 @@ header img:last-child{
 /* Banner */
 
 .banner, .banner--alt {
-    background-image: url(../img/instrumentos.jpg);
+    background-image: url(/img/instrumentos.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -549,7 +576,7 @@ header img:last-child{
 }
 
 .banner--alt {
-    background-image: url(../img/modelos.jpg);
+    background-image: url(/img/about.jpg);
 }
 
 .banner__contenido{
@@ -762,8 +789,9 @@ header img:last-child{
 .parrafo-doble__parrafo {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0;
     justify-content: flex-start;
+    margin: 2rem auto;
 }
 
 .parrafo-doble__titulo {
@@ -776,7 +804,7 @@ header img:last-child{
 .parrafo-doble__texto {
     font-size: 2.2rem;
     line-height: 1.6;
-    text-align: justify;
+    text-align: left;
 }
 
 @media (min-width: 960px) {
@@ -792,6 +820,10 @@ header img:last-child{
 
     .parrafo-doble__titulo {
         text-align: center;
+    }
+
+    .parrafo-doble__texto {
+        text-align: justify;
     }
 }
 
@@ -814,21 +846,24 @@ header img:last-child{
 .participante {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
+    line-height: 1.5;
     gap: 2rem;
-    text-align: center;
     margin: 2rem auto;
 }
 
 @media (min-width: 960px) {
     .participante {
         margin-bottom: 7rem;
-
+        max-width: 80rem;
+        align-items: center;
+        text-align: center;
     }    
 }
 
 .participante__info {
-
+    
 }
 
 .participante__nombre {
@@ -845,4 +880,9 @@ header img:last-child{
 
 .participante__texto span {
     font-weight: bold;
+}
+
+/* Párrafo Peq */
+.parrafo-peq {
+
 }

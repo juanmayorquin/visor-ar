@@ -122,6 +122,13 @@ export default function About() {
                                 />
                             }
                         />
+                        <Participante
+                            nombre={"Natalia Andrea Hernández Piedrahita"}
+                            subtitulo={"El Motor de Energía"}
+                            texto1={"¿Necesitas un impulso? "}
+                            nombre_corto={"Natalia"}
+                            texto2=" es la fuerza vital que mantiene todo en movimiento. Con una energía inagotable y habilidades excepcionales, es el engranaje esencial que mantiene al equipo en marcha."
+                        />
                     </>
                 }
             />
