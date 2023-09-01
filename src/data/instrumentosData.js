@@ -17,7 +17,10 @@ export const instrumentosData = [
       "Los osciloscopios modernos ofrecen funciones avanzadas que van más allá de la simple visualización de señales. Algunos modelos permiten el análisis de espectro, lo que significa que pueden descomponer una señal en sus componentes de frecuencia. También pueden realizar mediciones automáticas de parámetros clave de la señal, como la frecuencia, el período y la amplitud.",
     importancia:
       "El osciloscopio es una herramienta fundamental para la innovación tecnológica. Desde el desarrollo de nuevos productos hasta la investigación científica, el osciloscopio permite a los ingenieros y científicos explorar el mundo invisible de las señales eléctricas y desbloquear un sinfín de posibilidades en la innovación.",
-      section:"El osciloscopio es una herramienta poderosa que ha revolucionado la forma en que los ingenieros y científicos comprenden y trabajan con señales eléctricas. Desde su capacidad para revelar detalles sutiles de las señales hasta su papel crucial en la resolución de problemas y la toma de decisiones en diseño y desarrollo, el osciloscopio sigue siendo un pilar en la industria electrónica. Es una ventana al mundo oculto de las señales eléctricas que impulsa nuestra tecnología moderna y transforma la forma en que interactuamos con el mundo de la electrónica."
+    section:
+      "El osciloscopio es una herramienta poderosa que ha revolucionado la forma en que los ingenieros y científicos comprenden y trabajan con señales eléctricas. Desde su capacidad para revelar detalles sutiles de las señales hasta su papel crucial en la resolución de problemas y la toma de decisiones en diseño y desarrollo, el osciloscopio sigue siendo un pilar en la industria electrónica. Es una ventana al mundo oculto de las señales eléctricas que impulsa nuestra tecnología moderna y transforma la forma en que interactuamos con el mundo de la electrónica.",
+    video:
+      "https://www.youtube.com/embed/3S8Cy8XNpkA?si=OB_XmVgKSaQhSo-Z"
   },
   {
     nombre: "Fuentes de Voltaje",
@@ -37,6 +40,7 @@ export const instrumentosData = [
       "Las fuentes de voltaje modernas a menudo incorporan funciones avanzadas, como la capacidad de programar y controlar la tensión de salida, así como la limitación de corriente para proteger los componentes y prevenir daños. Algunos modelos también ofrecen interfaces digitales que permiten el control remoto y la automatización.",
     importancia:
       "La fuente de voltaje es un componente fundamental en la innovación tecnológica. Desde dispositivos portátiles hasta sistemas de energía renovable, la capacidad de generar y regular una tensión precisa es crucial para impulsar la evolución de la tecnología moderna. La investigación y el desarrollo continúan explorando formas de crear fuentes de voltaje más eficientes y versátiles.",
-      section:"La fuente de voltaje, a menudo pasando desapercibida pero omnipresente en nuestro mundo electrificado, es el motor que impulsa nuestra vida digital y tecnológica. Sin ella, la mayoría de los dispositivos que damos por sentado simplemente no podrían funcionar. Es el corazón energético que hace latir la electrónica moderna y desbloquea un sinfín de posibilidades en la innovación y el progreso tecnológico."
+    section:"La fuente de voltaje, a menudo pasando desapercibida pero omnipresente en nuestro mundo electrificado, es el motor que impulsa nuestra vida digital y tecnológica. Sin ella, la mayoría de los dispositivos que damos por sentado simplemente no podrían funcionar. Es el corazón energético que hace latir la electrónica moderna y desbloquea un sinfín de posibilidades en la innovación y el progreso tecnológico.",
+    video: "https://www.youtube.com/embed/8I_8EU711Zk?si=8tYVyAgib14fX8mB"
   },
 ];

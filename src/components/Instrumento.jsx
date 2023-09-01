@@ -39,7 +39,9 @@ export function Instrumento({instrumentoData}) {
                     <p>{instrumentoData.importancia}</p>
                 </div>
             </div>
-            
+            <div className="section__video-container">
+                <iframe className="section__video" src={instrumentoData.video} title="YouTube video player" ></iframe>
+            </div>
         </article>
   );
 }

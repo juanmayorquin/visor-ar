@@ -343,6 +343,8 @@ header img:last-child{
     text-align: center;
     margin-bottom: 4rem;
     line-height: 1.5;
+    font-size: 3rem;
+
 }
 
 .section__text.no-m-bot{
@@ -672,6 +674,14 @@ header img:last-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.elemento__content--video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 @media (min-width: 768px) {

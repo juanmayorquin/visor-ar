@@ -1,11 +1,10 @@
-export function Section({texto, video, backgroundColor, isBold, fontSize="3.2rem"}){
+export function Section({texto, video, backgroundColor, isBold }){
     const sectionStyle = {
         backgroundColor: backgroundColor
     }
 
     const textStyle = {
         fontWeight: isBold ? "bold" : "normal",
-        fontSize: fontSize
     }
     
     if(video != null){

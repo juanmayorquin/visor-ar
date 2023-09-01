@@ -17,7 +17,6 @@ export default function Inicio() {
       <Section
         texto={"Nuestra misión es transformar la educación en ingeniería biomédica a través de la fusión de la tecnología, la experiencia multimedia y la innovación educativa. En un plazo de 21 días, nos embarcamos en una emocionante travesía para desarrollar un prototipo de sistema multimedia de vanguardia, diseñado específicamente para estudiantes de ingeniería biomédica."}
         video={"https://www.youtube.com/embed/8jPKgJAQlZA"}
-        fontSize="2.8rem"
       />
       <ColorBar />
       <section className="container-home">
